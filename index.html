@@ -24,9 +24,9 @@
  
 <head>
  
-<title>{Chaii} / title</title> <!-- page title -->
+<title>{Luna} / title</title> <!-- page title -->
 
-<link rel="shortcut icon" href="{Favicon}">
+<link rel="shortcut icon" href="https://fontawesome.com/icons/moon?f=sharp&s=light">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -44,15 +44,15 @@
 /* ----------------------------------------------------------------------- */
 
 :root {
-    --background: #072b4a;
-    --container: #228eb5;
-    --text: #c9c9c9;
-    --accent: #228eb5;
-    --link: #51372c;
-    --hover: #072b4a;
+    --background: url("https://xatimg.com/image/bYCLJRIV0TBL.png");
+    --container: #RRGGBBAA;
+    --text: #F6C65C;
+    --accent: #25F41A;
+    --link: #000091;
+    --hover: #000091;
     
-    --font-text: Nunito;
-    --font-special: Roboto Mono;
+    --font-text: Dancing Script;
+    --font-special: Dancing Script;
     
     --font-size: 16px;
     
@@ -113,7 +113,7 @@
 ::-webkit-scrollbar-thumb 
 {background: var(--accent); border: 5px solid var(--background); border-radius: 20px;}
 ::-webkit-scrollbar-track 
-{background: var(--container); border: 8px solid var(--background);}
+{background: var(--nav); border: 8px solid var(--background);}
 ::-webkit-scrollbar 
 {width: 20px;}
 
@@ -127,7 +127,7 @@ body {
     font-family: var(--font-text);
     font-size: var(--font-size);
     letter-spacing: 0.025em;
-    line-height: 160%;
+    line-height: 100%;
     overflow: hidden;
     text-align: justify;
 }
@@ -136,9 +136,9 @@ body {
     background-color: var(--container);
     border-radius: var(--border-radius);
     height: 400px;
-    margin: 125px auto;
-    max-width: 700px;
-    padding: 20px;
+    margin: 80px 81% -80px 19%; 
+    max-width: 800px;
+    padding: -40px;
     width: 85%;
 }
 
@@ -156,45 +156,45 @@ i {line-height: 160%;}
     display: -webkit-flex;
     height: 43px;
     justify-content: space-between;
-    margin-left: -20px;
-    max-width: 290px;
+    margin-left: 325px;
+    max-width: 600px;
     position: fixed;
-    top: 580px;
+    top: 475px;
     width: 50%;
 }
 
 .navlink {
-    background-color: var(--container);
+    background-color: var(--link);
     border-radius: calc(var(--border-radius) * 0.5);
     border-radius: -moz-calc(var(--border-radius) * 0.5);
     border-radius: -webkit-calc(var(--border-radius) * 0.5);
-    color: var(--background);
+    color: var(--accent);
     padding: 12px 10px 9px 10px;
     text-align: center;
-    width: 20px;
+    width: 75px;
 }
-
+  
 .navlink:hover {
-    background-color: var(--background);
+    background-color: var(--hover);
     color: var(--accent);
-    transform: scale(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+    transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
 }
 
 #container img {
     background-color: var(--accent);
     border-radius: var(--border-radius);
-    height: 400px;
+    height: 350px;
     position: fixed;
-    width: 300px;
+    width: 425px;
 }
 
 #content {
     height: 400px;
-    margin-left: 320px;
+    margin-left: 450px;
     margin-top: 2px;
     overflow: auto;
     -moz-overflow-style: none;
@@ -210,15 +210,15 @@ i {line-height: 160%;}
 
 h1 {
     font-family: var(--font-special);
-    font-size: 2.5em;
+    font-size: .5em;
     font-weight: normal;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: var(--font-special);
-    font-size: 1.8em;
+    font-family: var(--font-text);
+    font-size: 1.5em;
     font-weight: normal;
     margin: 10px 5px;
     text-transform: uppercase;
@@ -250,7 +250,7 @@ a, a:hover, #content {
 }
 
 blink {animation: blink 1.5s infinite; margin-left: -5px;}
-@keyframes blink { 0% {opacity: 0} 49%{opacity: 0} 50% {opacity: 1} }
+@keyframes blink { 0% {opacity: 0} 25%{opacity: 0} 25% {opacity: 1} }
 
 /* ----------------------------------------------------------------------- */
 /* ------------------------------- credits ------------------------------- */
@@ -282,8 +282,8 @@ blink {animation: blink 1.5s infinite; margin-left: -5px;}
 /* ----------------------------------------------------------------------- */
 
 @media only screen and (max-width: 700px){
-    #container img {margin-left: -1000px;}
-    #content {margin-left: 0; width: 100%;}
+    #container img {margin-left: -1500px;}
+    #content {margin-left: -500px; width: 100%;}
 }
     
 </style>
@@ -302,21 +302,20 @@ blink {animation: blink 1.5s infinite; margin-left: -5px;}
 
 <div id="container">
 
-    <img src="https://xatimg.com/image/NDEK6DGzB3j7.gif"> <!-- image -->
+    <!--<img src="https://i.ibb.co/xjH8sKj/aos-1080.gif"> <!-- image -->
     
     <div id="content">
         
-        <h1>hopeless romantic<blink> ♡</blink></h1> <!-- main title -->
+        <h2 align="center">Wandering Mind,</h2> <!-- main title -->
+      <h2 align="center"> Luna Marie</h2>
         
-Please to meet you cutie. I go by Chai, but get to know me first! If you can't get ahold of I may already be ready a shoujo manga.. I'm from Chicago,IL; birthdate August 16th, listening to lofi and reading romance soothe my soul. Enjoying the company of a new friend w/ new interest is always appreciated! use <b>message me sometime..</b>
+Hello and welcome, my name is Luna. I'm a travelling IT systems expert with a passion for learning. I find peace in helping those in need and losing myself in a book. Originally from Florida, I don't spend long in one place these days. If you eve hope to find me now, I've found a new home on xat with new friends at Ecchi. I'd like to give a special thanks to those friends for always keeping me positive when I need it most.
 
 <br><br>
 
- 
+<h2 align="center">Follow the Vibe.</h2>
 
-<h2>Follow the Vibe.</h2>
-
-Nothing feels better than knowing the people you meet kinder the same vibes as you. We walk different forms of life, but some how we connect and it makes my heart flutter. I love learning new interest from others such as music, culture, lingo, perspectives, and it all begins w/ a simple hello.     
+Nothing feels better than knowing the people you meet foster the same energy as you. We walk different paths of this world, but somehow we find one another. Through this, we meet new people who teach us new ideas, give us new tastes, and show us new perspectives and cultures. Yet, it all begins with a simple hello.     
     </div>
     
     <!-- navigation -->
@@ -325,34 +324,42 @@ Nothing feels better than knowing the people you meet kinder the same vibes as y
     
         <!-- home link -->
         
-        <a class="navlink" title="home" href="/">
+       <!-- <a class="navlink" title="home" text="Home" href="https://xat.com/Ecchi">
             <i class="fas fa-home"></i>
-        </a>
-        
-        <!-- ask link -->
-        
-        <a class="navlink" title="discord" href="MamaChaii#0016">
-            <i class="fas fa-envelope"></i>
-        </a>
+        </a>-->
+      
+         <a href="https://xat.com/Ecchi" title="Ecchi">
+                    <div class="navlink">
+                        The Best 
+                    </div>
+         </a>
         
         <!-- custom link 1 -->
-        
-        <a class="navlink" title="Papa" href="https://xat.me/Isaac">
-            <i class="fas fa-user"></i>
-        </a>
-        
+
+          <a href="https://xat.me/Chaii" title="Chai">
+                    <div class="navlink">
+                        Pure One 
+                    </div>
+         </a>
+      
         <!-- custom link 2 -->
         
-        <a class="navlink" title="Zan" href="https://xat.me/AylenArcadia">
-            <i class="fas fa-user"></i>
-        </a>
+          <a href="https://xat.me/Ecchi" title="Nana">
+                    <div class="navlink">
+                       Sweetheart 
+                    </div>
+         </a>
         
         <!-- custom link 3 -->
-        
-        <a class="navlink" title="Sonic" href="https://xat.me/MisterHedgehog">
-            <i class="fas fa-user"></i>
-        </a>
-        
+ 
+      
+          <a href="https://xat.me/MrCLarkKent94" title="Clark">
+                    <div class="navlink">
+                        The Dork
+                    </div>
+         </a>  
+      
+      
     </div>
     
 </div>
